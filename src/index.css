@@ -1,0 +1,53 @@
+h1{
+  background-color: black;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.mainEntry{
+  padding: 0.6rem;
+}
+.leftLabelCon{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.searchLabel{
+  font-size: 2rem;
+}
+.searchRow{
+  background-color: #0069B1;
+  color: white;
+  padding: 2rem;
+  margin: 0px;
+}
+.searchRow > *{
+  margin-top: 20px;;
+}
+.wCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 2rem;
+}
+
+.searchError{
+  background-color: #ffcccb;
+  color: #ff0033;
+  font-size: 1.5rem;
+  margin: 0px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .leftLabelCon{
+    justify-content: center;
+  }
+  .searchButtonCon{
+    display: flex;
+    justify-content: center;
+  }
+}
