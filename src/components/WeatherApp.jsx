@@ -53,6 +53,7 @@ function WeatherApp() {
 
   const handleSearch = () =>{
       setSearchTerm(barText);
+      setBarText("");
   }
 
   const handleDelete = (id) =>{
